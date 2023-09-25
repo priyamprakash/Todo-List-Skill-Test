@@ -38,6 +38,6 @@ addBtn.addEventListener('click', () => {
  // mark item as completed
  tasks.addEventListener('click', (e) => {
     if(e.target.classList.contains('fa-pen-to-square')){
-        e.target.parentElement.parentElement.toggle('completed');
+        e.target.parentElement.parentElement.classList.toggle('completed')
     }
 })
